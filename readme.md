@@ -1,3 +1,4 @@
+# All Task are done with task named folder with c++
 ## Task 1
 Given an integer array A with size N and an integer K,where 0< N, K <10^5 . Write a program for getting Kth minimum and Kth maximum number from the given array.
 
@@ -20,10 +21,10 @@ Sample output:<br>
 
 ## Task 3
 Why is the complexity of binary search O(logN) where N is the size of the list? Explain.
-## Question 4
+## Task 4
 Given an integer array A with size N and an integer Q for queries, where 0< N,Q < 10^6.<br>
 Write a program using prefix sum concept to find the sum of a given range L to R for each query. (1 <= L,R <= N and L <= R)<br>
-``
+
 N<br>
 A1 A2 A3…….AN<br>
 Q<br>
@@ -32,7 +33,7 @@ L2  R2<br>
 .    .<br>
 .     .<br>
 LQ  RQ<br>
-``
+
 Sample input:<br>
 6<br>
 1 2 3 4 5 6<br>
@@ -50,7 +51,7 @@ Sample output:<br>
 Given an integer array A with size N and an integer Q for queries, where
 (0 <  N < 10^5) , (-10^7 < Ai  < 10^7) and (0 < Q < 10^7) .<br>
 Write a program using prefix sum concept to find the sum of positive integers from a given range L to R for each query. (1 <= L,R <= N)<br>
-``
+
 N<br>
 A1 A2 A3…….AN<br>
 Q<br>
@@ -59,7 +60,7 @@ L2  R2<br>
 .    .<br>
 .     .<br>
 LQ  RQ<br>
-``
+
 Sample input:<br>
 6<br>
 1 -2 3 -4 5 6<br>
@@ -100,18 +101,20 @@ Given a matrix A with dimension n*m. Write a program to print the sum of the ele
           7 8 9<br>
          Sample output:<br>
          10<br>
-         [Here ,highlighted  4 is located in the 2nd row and 1st column , 6 is located in         the 2nd row  and 3rd column. ]<br>
+
+[Here ,highlighted  4 is located in the 2nd row and 1st column , 6 is located in         the 2nd row  and 3rd column. ]<br>
 
 ## Task 9
 Given an integer array A with size N and k. Write a program to find out how many pairs exist in array A whose sum is equal to k.<br>
 
-          Sample input:<br>
-           7 8<br>
-           1 2 3 4 5 6 7<br>
+          Sample input:
+           7 8
+           1 2 3 4 5 6 7
 
-          Sample output:<br>
-          3<br>
-        [Here, 1+7=8, 2+6=8, 3+5=8 ]<br>
+          Sample output:
+          3
+
+[Here, 1+7=8, 2+6=8, 3+5=8 ]<br>
 ## Task 10
 For a sorted array, which of the following algorithms will take less time ? Explain with examples.
  <ol>
@@ -146,11 +149,5 @@ For example: If the list looks like this,<br>
 List: 2 <-> 4 <-> 1 <-> 10 <-> 5<br>
 After the operation the list will look like this,<br>
 List: 4 <-> 1 <-> 10 <-> 5 <-> 2<br>
-
-
-
-
-
-
 
 
