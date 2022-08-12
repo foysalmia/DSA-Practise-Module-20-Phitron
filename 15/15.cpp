@@ -30,8 +30,6 @@ void replaceFirstWithLast(Node * &head){
     if(head->next == NULL) return;
     Node *tmp = head;
 
-    int first = tmp->value;
-
     while(tmp->next->next != NULL){
         tmp = tmp->next;
     }
